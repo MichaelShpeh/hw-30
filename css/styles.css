@@ -3,37 +3,10 @@
     height: 100px;
     background-color: red;
     animation-name: box-moves;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: normal;
-}
-
-@keyframes box-moves {
-    0% {
-        background-color: red;
-    }
-
-    25% {
-        background-color: blue;
-        transform: translateY(300px);
-    }
-
-    50% {
-        background-color: green;
-        transform: translate(300px, 300px);
-
-    }
-
-    75% {
-        background-color: yellow;
-        transform: translate(300px, 0px);
-    }
-
-    100% {
-        background-color: red;
-        transform: translate(0px, 0px);
-    }
 }
 
 @keyframes box-moves {
