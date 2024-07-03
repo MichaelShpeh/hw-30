@@ -3,7 +3,7 @@
     height: 100px;
     background-color: red;
     animation-name: box-moves;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: normal;
